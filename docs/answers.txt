@@ -1,0 +1,15 @@
+Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git add README.md                                            
+Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git add docs/status.txt                                      
+Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git commit -m "Updating status.txt with status of files in the working directory and staging area"
+[master 39faa1e] Updating status.txt with status of files in the working directory and staging area
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+ rewrite docs/status.txt (100%)
+Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git push                                                     
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 844 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/4thJenkins17/GitAssignment.git
+   7a77587..39faa1e  master -> master
+Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› %   
