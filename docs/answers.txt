@@ -1,3 +1,4 @@
+(a).
 Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git add README.md                                            
 Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git add docs/status.txt                                      
 Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› % git commit -m "Updating status.txt with status of files in the working directory and staging area"
@@ -13,3 +14,73 @@ Total 5 (delta 0), reused 0 (delta 0)
 To https://github.com/4thJenkins17/GitAssignment.git
    7a77587..39faa1e  master -> master
 Asas-MacBook-Air :: myWork/IdeaProjects/GitAssignment ‹master*› %   
+
+(b).
+12
+git log
+
+(c).
+Date:   Thu Sep 15 10:29:34 2016 -0400
+git log .gitignore
+
+(d).
+git log --name-only src
+
+2
+src/edu/fsu/cs/cen4021/RoleGame.java
+src/edu/fsu/cs/cen4021/RoleGame.java
+
+1
+src/edu/fsu/cs/cen4021/armory/BasicWeapon.java
+
+1
+src/edu/fsu/cs/cen4021/armory/Sword.java
+
+1
+src/edu/fsu/cs/cen4021/armory/Weapon.java
+
+1
+src/edu/fsu/cs/cen4021/armory/WeaponFactory.java
+
+1
+src/edu/fsu/cs/cen4021/edu/fsu/cs/cen4021/armory/BasicWeapon.java
+
+1
+src/edu/fsu/cs/cen4021/edu/fsu/cs/cen4021/armory/Sword.java
+
+1
+src/edu/fsu/cs/cen4021/edu/fsu/cs/cen4021/armory/Weapon.java
+
+1
+src/edu/fsu/cs/cen4021/edu/fsu/cs/cen4021/armory/WeaponFactory.java
+
+2
+src/edu/fsu/cs/cen5035/BasicWeapon.java
+src/edu/fsu/cs/cen5035/BasicWeapon.java
+
+2
+src/edu/fsu/cs/cen5035/Sword.java
+src/edu/fsu/cs/cen5035/Sword.java
+
+2
+src/edu/fsu/cs/cen5035/RoleGame.java
+src/edu/fsu/cs/cen5035/RoleGame.java
+
+2
+src/edu/fsu/cs/cen5035/Weapon.java
+src/edu/fsu/cs/cen5035/Weapon.java
+
+1
+src/edu/fsu/cs/cen5035/WeaponFactory.java
+
+(e).
+Git log shows the commits for a directory or a file, and on the other hand, git status shows the status of the files in the working directory like if they're modified or untracked.
+
+(f).
+git log RoleGame.java
+
+(g).
+git log --grep="file"
+
+(h).
+git log --author="Alice" --since={2016-09-01} --before={2016-09-16}
