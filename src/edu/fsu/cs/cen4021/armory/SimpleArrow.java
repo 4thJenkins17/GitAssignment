@@ -6,7 +6,6 @@ package edu.fsu.cs.cen4021.armory;
 public class SimpleArrow extends BasicWeapon implements Weapon {
     SimpleArrow(){super(70);}
 
-
     @Override
     public int hit() {
         return DAMAGE;
