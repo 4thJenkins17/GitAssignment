@@ -5,6 +5,8 @@
  */
 package edu.fsu.cs.cen4021.armory;
 
+import java.io.IOException;
+
 /**
  * @author Javier
  */
@@ -20,6 +22,12 @@ public class WeaponFactory {
                 return new SimpleAxe();
             case "staff":
                 return new SimpleMagicStaff();
+            case "theChosenOneAxe":
+                try {
+                    return new TheChosenOneAxe();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
