@@ -101,9 +101,9 @@ public class TheChosenOneAxe extends BasicWeapon implements Weapon {
     {
 
         if (armor > 0 && armor < 20){
-            return DAMAGE;
+            return hit();
         }
 
-        return DAMAGE - armor;
+        return hit() - armor;
     }
 }
