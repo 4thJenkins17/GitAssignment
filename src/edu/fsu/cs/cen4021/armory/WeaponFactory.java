@@ -28,6 +28,8 @@ public class WeaponFactory {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+            case "ancientMagicStaff":
+                return new AncientMagicStaff();
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
