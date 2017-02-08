@@ -44,19 +44,18 @@ public class TheChosenOneAxe extends BasicWeapon implements Weapon {
         char c, d;
 
         try {
-
+            //open file
             file = new FileInputStream("conf/thechosenone.txt");
-
+            // read charachter by character
             while ((a = file.read()) != -1){
 
                 c = (char)a;
                 d = (char)a;
 
-                // First word
+                // build First word
                 if (c != '\n' && flag == false) {
                    firstWord += c;
                 }
-
 
                 if (c == '\n' && flag2 == false){
                     b++;
@@ -65,6 +64,7 @@ public class TheChosenOneAxe extends BasicWeapon implements Weapon {
                     flag2 = true;
                 }
 
+                // find second word
                 if (d != '\n' && flag3 == false && flag2 == true && flag == true) {
                     secondWord += d;
                 }

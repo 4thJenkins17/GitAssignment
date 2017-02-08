@@ -30,6 +30,8 @@ public class WeaponFactory {
                 }
             case "ancientMagicStaff":
                 return new AncientMagicStaff();
+            case "webRitualArrow":
+                return new WebRitualArrow();
             default:
                 throw new IllegalArgumentException("Invalid type");
         }

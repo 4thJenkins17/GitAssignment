@@ -21,6 +21,7 @@ public class RoleGame {
         Weapon staff = WeaponFactory.getWeapon("staff");
         Weapon tcoAxe = WeaponFactory.getWeapon("theChosenOneAxe");
         Weapon magicStaff = WeaponFactory.getWeapon("ancientMagicStaff");
+        Weapon ritualArrow = WeaponFactory.getWeapon("webRitualArrow");
 
         // Arrow
         System.out.println("\nArrow has " + arrow.hit() + " of damage.");
@@ -41,6 +42,10 @@ public class RoleGame {
         // Ancient Magic Staff
         System.out.println("\nThe Ancient Magic Staff has " + magicStaff.hit() + " of damage.");
         System.out.println("The Ancient Magic Staff  were able to do " + magicStaff.hit(armor) + " of damage due to an armor with " + armor + " points.");
+
+        // Web Ritual Arrow
+        System.out.println("\nThe Web Ritual Arrow has " + ritualArrow.hit() + " of damage.");
+        System.out.println("The Web Ritual Arrow  were able to do " + ritualArrow.hit(armor) + " of damage due to an armor with " + armor + " points.");
 
     }
 }
